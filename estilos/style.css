@@ -5,3 +5,48 @@
     cor 2: #A67233
     cor 3: #0D0D0D
 */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #F2B705;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+#imagem {
+    background: #F2B705 url(../imagens/audi.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: block;
+}
+
+#formulario {
+    display: block;
+    padding: 10px;
+}
